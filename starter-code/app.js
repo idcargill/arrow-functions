@@ -125,7 +125,7 @@ let message = (name) => `Hello, ${name}!`;
 // TODO: Uncomment the following line of code to see the output in the browser console
 console.log(message('Allie'));
 
-let Student = (name, age, hometown) => {
+let Student = function(name, age, hometown)  {
 	this.name = name;
 	this.age = age;
 	this.hometown = hometown;
